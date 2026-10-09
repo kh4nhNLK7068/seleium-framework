@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test name="Test">
+        <classes>
+            <class name="test.java.testcases.TC01_Register"/>
+            <!-- <class name="test.java.testcases.TC02_Login"/>  -->
+        </classes>
+    </test>
+</suite>
+
+<!-- Cách 2 — dùng <methods> để chọn test cụ thể -->
+<!-- <classes>
+    <class name="testcases.TC01_Register">
+        <methods>
+            <include name="TC01_Verify_Register_Successfully"/>
+        </methods>
+    </class>
+</classes> -->
