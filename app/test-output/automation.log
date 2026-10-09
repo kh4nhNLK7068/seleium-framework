@@ -1,0 +1,52 @@
+[2026-10-09 20:53:28] [INFO ] TC01_Register - Setting up WebDriver before the test method
+[2026-10-09 20:53:32] [INFO ] TC01_Register - Navigating to Register page
+[2026-10-09 20:53:33] [INFO ] TC01_Register - Step 1: Enter account
+[2026-10-09 20:53:33] [INFO ] TC01_Register - Account: b428c6fc-05ae-408e-8792-1f4a05db16b0
+[2026-10-09 20:53:33] [INFO ] TC01_Register - Email: b428c6fc-05ae-408e-8792-1f4a05db16b0@example.com
+[2026-10-09 20:53:33] [INFO ] TC01_Register - Step 2: Enter password
+[2026-10-09 20:53:33] [INFO ] TC01_Register - Step 3: Re-enter password
+[2026-10-09 20:53:33] [INFO ] TC01_Register - Step 4: Enter full name
+[2026-10-09 20:53:33] [INFO ] TC01_Register - Step 5: Enter email
+[2026-10-09 20:53:34] [INFO ] TC01_Register - Step 6: Click Register
+[2026-10-09 20:53:34] [INFO ] TC01_Register - Step 7: Verify success message
+[2026-10-09 20:53:36] [INFO ] TC01_Register - Cleaning up after the test method
+[2026-10-09 20:55:43] [INFO ] TC01_Register - Setting up WebDriver before the test method
+[2026-10-09 20:55:48] [INFO ] TC01_Register - Navigating to Register page
+[2026-10-09 20:55:49] [INFO ] TC01_Register - Step 1: Enter account
+[2026-10-09 20:55:49] [INFO ] TC01_Register - Account: 6949e3d8-3ee8-4621-8281-d7e7601f5e3b
+[2026-10-09 20:55:49] [INFO ] TC01_Register - Email: 6949e3d8-3ee8-4621-8281-d7e7601f5e3b@example.com
+[2026-10-09 20:55:49] [INFO ] TC01_Register - Step 2: Enter password
+[2026-10-09 20:55:50] [INFO ] TC01_Register - Step 3: Re-enter password
+[2026-10-09 20:55:50] [INFO ] TC01_Register - Step 4: Enter full name
+[2026-10-09 20:55:50] [INFO ] TC01_Register - Step 5: Enter email
+[2026-10-09 20:55:50] [INFO ] TC01_Register - Step 6: Click Register
+[2026-10-09 20:55:50] [INFO ] TC01_Register - Step 7: Verify success message
+[2026-10-09 20:55:52] [INFO ] TC01_Register - Cleaning up after the test method
+[2026-10-09 21:20:09] [INFO ] TC01_Register - Before Suite: Setting up test suite
+[2026-10-09 21:20:09] [INFO ] TC01_Register - Before Test: Setting up test
+[2026-10-09 21:20:09] [INFO ] TC01_Register - Setting up WebDriver before the test method
+[2026-10-09 21:20:15] [INFO ] TC01_Register - Navigating to Register page
+[2026-10-09 21:20:16] [INFO ] TC01_Register - Step 1: Enter account
+[2026-10-09 21:20:16] [INFO ] TC01_Register - Account: bdf82516-8a4a-4eab-b8e5-472e2fe7fc63
+[2026-10-09 21:20:16] [INFO ] TC01_Register - Email: bdf82516-8a4a-4eab-b8e5-472e2fe7fc63@example.com
+[2026-10-09 21:20:16] [INFO ] TC01_Register - Step 2: Enter password
+[2026-10-09 21:20:16] [INFO ] TC01_Register - Step 3: Re-enter password
+[2026-10-09 21:20:17] [INFO ] TC01_Register - Step 4: Enter full name
+[2026-10-09 21:20:17] [INFO ] TC01_Register - Step 5: Enter email
+[2026-10-09 21:20:17] [INFO ] TC01_Register - Step 6: Click Register
+[2026-10-09 21:20:17] [INFO ] TC01_Register - Step 7: Verify success message
+[2026-10-09 21:20:19] [INFO ] TC01_Register - Cleaning up after the test method
+[2026-10-09 21:20:20] [INFO ] TC01_Register - After Test: Cleaning up test
+[2026-10-09 21:20:20] [INFO ] TC01_Register - After Suite: Cleaning up test suite
+[2026-10-09 21:23:06] [INFO ] TC02_Login - Before Suite: Setting up test suite
+[2026-10-09 21:23:07] [INFO ] TC02_Login - Before Test: Setting up test
+[2026-10-09 21:23:07] [INFO ] TC02_Login - Setting up WebDriver before the test method
+[2026-10-09 21:23:22] [INFO ] TC02_Login - Cleaning up after the test method
+[2026-10-09 21:23:22] [INFO ] TC02_Login - After Test: Cleaning up test
+[2026-10-09 21:23:22] [INFO ] TC02_Login - After Suite: Cleaning up test suite
+[2026-10-09 21:24:08] [INFO ] TC02_Login - Before Suite: Setting up test suite
+[2026-10-09 21:24:08] [INFO ] TC02_Login - Before Test: Setting up test
+[2026-10-09 21:24:08] [INFO ] TC02_Login - Setting up WebDriver before the test method
+[2026-10-09 21:24:23] [INFO ] TC02_Login - Cleaning up after the test method
+[2026-10-09 21:24:25] [INFO ] TC02_Login - After Test: Cleaning up test
+[2026-10-09 21:24:25] [INFO ] TC02_Login - After Suite: Cleaning up test suite

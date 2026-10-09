@@ -103,7 +103,7 @@
                     <div class="method-list-content failed suite-Gradle_suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Gradle_suite" title="testcases.TC01_Register" class="method navigator-link" hash-for-method="TC01_Verify_Register_Successfully">TC01_Verify_Register_Successfully</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Gradle_suite" title="testcases.TC02_Login" class="method navigator-link" hash-for-method="TC02_Verify_Login_Successfully">TC02_Verify_Login_Successfully</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Gradle_suite -->
@@ -121,36 +121,22 @@
           <div class="suite-Gradle_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">testcases.TC01_Register</span>
+              <span class="class-name">testcases.TC02_Login</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="TC01_Verify_Register_Successfully">
-                  </a> <!-- TC01_Verify_Register_Successfully -->
-                  <span class="method-name">TC01_Verify_Register_Successfully</span>
-                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button class=&quot;MuiButtonBase-root MuiButton-root MuiButton-contained jss221 MuiButton-containedPrimary MuiButton-fullWidth&quot; tabindex=&quot;0&quot; type=&quot;submit&quot;&gt;...&lt;/button&gt; is not clickable at point (756, 475). Other element would receive the click: &lt;div class=&quot;swal2-actions&quot;&gt;...&lt;/div&gt;
-  (Session info: MicrosoftEdge=154.0.4258.62)
+                  <a name="TC02_Verify_Login_Successfully">
+                  </a> <!-- TC02_Verify_Login_Successfully -->
+                  <span class="method-name">TC02_Verify_Login_Successfully</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: //div[@class=&apos;user-info&apos;]/span, but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;user-info&apos;]/span&quot;}.
+(tried for 10 seconds with 1000 milliseconds interval)
 Build info: version: &apos;4.49.0&apos;, revision: &apos;bedb24f bedb24f6f703876e7e4c5d506f0d697eb358c720&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.11&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [ed6b8f9076dc2f9ce5a57120d4ce69b0, clickElement {id=f.193CDF2F9BB91EECC626E1223B579889.d.78DDF2B7502CE345606B82A92145A42D.e.85}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 154.0.4258.62, fedcm:accounts: true, goog:processID: 13540, ms:edgeOptions: {debuggerAddress: localhost:56767}, msedge: {msedgedriverVersion: 154.0.4258.62 (49f7c5590dad..., userDataDir: C:\Users\khanh\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56767/devtoo..., se:cdpVersion: 154.0.4258.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: MicrosoftEdge on windows (ed6b8f9076dc2f9ce5a57120d4ce69b0)] -&gt; xpath: //button[@type=&apos;submit&apos; and .//span[normalize-space()=&apos;Đăng nhập&apos;]]]
-Session ID: ed6b8f9076dc2f9ce5a57120d4ce69b0
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:653)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:225)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
-	at pages.BasePage.click(BasePage.java:64)
-	at pages.BasePage.click(BasePage.java:69)
-	at pages.LoginPage.clickLoginButton(LoginPage.java:35)
-	at testcases.TC01_Register.TC01_Verify_Register_Successfully(TC01_Register.java:124)
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:279)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at testcases.TC02_Login.TC02_Verify_Login_Successfully(TC02_Login.java:69)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at jdk.proxy1/jdk.proxy1.$Proxy4.stop(Unknown Source)
 ... Removed 41 stack frames
@@ -170,7 +156,7 @@ Session ID: ed6b8f9076dc2f9ce5a57120d4ce69b0
 &lt;suite name=&quot;Gradle suite&quot; verbose=&quot;0&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Gradle test&quot; verbose=&quot;0&quot; preserve-order=&quot;false&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testcases.TC01_Register&quot;/&gt;
+      &lt;class name=&quot;testcases.TC02_Login&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Gradle test --&gt;
 &lt;/suite&gt; &lt;!-- Gradle suite --&gt;
@@ -212,14 +198,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'TC01_Verify_Register_Successfully')
-data.setCell(0, 2, 'testcases.TC01_Register')
-data.setCell(0, 3, 6389);
+data.setCell(0, 1, 'TC02_Verify_Login_Successfully')
+data.setCell(0, 2, 'testcases.TC02_Login')
+data.setCell(0, 3, 12590);
 window.suiteTableData['Gradle_suite']= { tableData: data, tableDiv: 'times-div-Gradle_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <span class="suite-total-time">Total running time: 12 seconds</span>
               <div id="times-div-Gradle_suite">
               </div> <!-- times-div-Gradle_suite -->
             </div> <!-- times-div -->
@@ -245,21 +231,37 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testcases.TC01_Register</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod</span>
+              <div class="chronological-class-name">testcases.TC02_Login</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">301 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void testcases.TC02_Login.TC02_Verify_Login_Successfully())</span>
+                <span class="method-start">328 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">TC01_Verify_Register_Successfully</span>
-                <span class="method-start">1786 ms</span>
+                <span class="method-name">TC02_Verify_Login_Successfully</span>
+                <span class="method-start">2901 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">8183 ms</span>
+                <span class="method-name">afterMethod([TestResult name=TC02_Verify_Login_Successfully status=FAILURE method=TC02_Login.TC02_Verify_Login_S...)</span>
+                <span class="method-start">15498 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">16831 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">16861 ms</span>
+              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

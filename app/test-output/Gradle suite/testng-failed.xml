@@ -3,13 +3,17 @@
 <suite name="Failed suite [Gradle suite]" verbose="0">
   <test thread-count="5" name="Gradle test(failed)" verbose="0">
     <classes>
-      <class name="testcases.TC01_Register">
+      <class name="testcases.TC02_Login">
         <methods>
+          <include name="beforeTest"/>
           <include name="afterMethod"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="afterTest"/>
           <include name="beforeMethod"/>
-          <include name="TC01_Verify_Register_Successfully"/>
+          <include name="TC02_Verify_Login_Successfully"/>
         </methods>
-      </class> <!-- testcases.TC01_Register -->
+      </class> <!-- testcases.TC02_Login -->
     </classes>
   </test> <!-- Gradle test(failed) -->
 </suite> <!-- Failed suite [Gradle suite] -->

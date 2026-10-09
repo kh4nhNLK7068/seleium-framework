@@ -15,7 +15,7 @@ public class LoginPage extends CommonPage {
         // Initialize locators
         byTxtUserLogin = By.id("taiKhoan");
         byTxtPasswordLogin = By.id("matKhau");
-        byBtnLogin = By.xpath("//button[@type='submit' and .//span[normalize-space()='Đăng nhập']]");
+        byBtnLogin = By.xpath("//button[span[text()='Đăng nhập']]");
         byLblLoginSuccess = By.id("swal2-title");
     }
 

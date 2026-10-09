@@ -4,7 +4,7 @@
     <test name="Test">
         <classes>
             <class name="test.java.testcases.TC01_Register"/>
-            <!-- <class name="test.java.testcases.TC02_Login"/>  -->
+            <class name="test.java.testcases.TC02_Login"/> 
         </classes>
     </test>
 </suite>
